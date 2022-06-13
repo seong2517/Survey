@@ -71,6 +71,7 @@
       this.checkBox9 = new System.Windows.Forms.CheckBox();
       this.checkBox10 = new System.Windows.Forms.CheckBox();
       this.gb5_Btn1 = new System.Windows.Forms.Button();
+      this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
       this.tabPage3 = new System.Windows.Forms.TabPage();
       this.tP3_NextBtn = new System.Windows.Forms.Button();
       this.tP3_PrevBtn = new System.Windows.Forms.Button();
@@ -83,7 +84,29 @@
       this.radioButton9 = new System.Windows.Forms.RadioButton();
       this.radioButton10 = new System.Windows.Forms.RadioButton();
       this.pictureBox1 = new System.Windows.Forms.PictureBox();
-      this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
+      this.tabPage5 = new System.Windows.Forms.TabPage();
+      this.button1 = new System.Windows.Forms.Button();
+      this.button2 = new System.Windows.Forms.Button();
+      this.groupBox8 = new System.Windows.Forms.GroupBox();
+      this.groupBox9 = new System.Windows.Forms.GroupBox();
+      this.groupBox10 = new System.Windows.Forms.GroupBox();
+      this.groupBox11 = new System.Windows.Forms.GroupBox();
+      this.checkBox11 = new System.Windows.Forms.CheckBox();
+      this.checkBox12 = new System.Windows.Forms.CheckBox();
+      this.checkBox13 = new System.Windows.Forms.CheckBox();
+      this.checkBox14 = new System.Windows.Forms.CheckBox();
+      this.checkBox15 = new System.Windows.Forms.CheckBox();
+      this.checkBox16 = new System.Windows.Forms.CheckBox();
+      this.checkBox17 = new System.Windows.Forms.CheckBox();
+      this.checkBox18 = new System.Windows.Forms.CheckBox();
+      this.checkBox19 = new System.Windows.Forms.CheckBox();
+      this.checkBox20 = new System.Windows.Forms.CheckBox();
+      this.checkBox21 = new System.Windows.Forms.CheckBox();
+      this.checkBox22 = new System.Windows.Forms.CheckBox();
+      this.checkBox23 = new System.Windows.Forms.CheckBox();
+      this.checkBox24 = new System.Windows.Forms.CheckBox();
+      this.checkBox25 = new System.Windows.Forms.CheckBox();
+      this.checkBox26 = new System.Windows.Forms.CheckBox();
       this.tabControl1.SuspendLayout();
       this.information.SuspendLayout();
       ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -94,18 +117,24 @@
       this.groupBox1.SuspendLayout();
       this.tabPage2.SuspendLayout();
       this.groupBox5.SuspendLayout();
+      ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
       this.tabPage3.SuspendLayout();
       this.groupBox6.SuspendLayout();
       this.tabPage4.SuspendLayout();
       this.groupBox7.SuspendLayout();
       ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-      ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
+      this.tabPage5.SuspendLayout();
+      this.groupBox8.SuspendLayout();
+      this.groupBox9.SuspendLayout();
+      this.groupBox10.SuspendLayout();
+      this.groupBox11.SuspendLayout();
       this.SuspendLayout();
       // 
       // tabControl1
       // 
       this.tabControl1.Controls.Add(this.information);
       this.tabControl1.Controls.Add(this.tabPage1);
+      this.tabControl1.Controls.Add(this.tabPage5);
       this.tabControl1.Controls.Add(this.tabPage2);
       this.tabControl1.Controls.Add(this.tabPage3);
       this.tabControl1.Controls.Add(this.tabPage4);
@@ -131,7 +160,7 @@
       this.information.Location = new System.Drawing.Point(4, 22);
       this.information.Name = "information";
       this.information.Padding = new System.Windows.Forms.Padding(3);
-      this.information.Size = new System.Drawing.Size(796, 445);
+      this.information.Size = new System.Drawing.Size(796, 435);
       this.information.TabIndex = 4;
       this.information.Text = "information";
       // 
@@ -263,7 +292,7 @@
       this.tabPage1.Location = new System.Drawing.Point(4, 22);
       this.tabPage1.Name = "tabPage1";
       this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-      this.tabPage1.Size = new System.Drawing.Size(796, 480);
+      this.tabPage1.Size = new System.Drawing.Size(796, 465);
       this.tabPage1.TabIndex = 0;
       this.tabPage1.Text = "1페이지";
       // 
@@ -494,7 +523,7 @@
       this.tabPage2.Location = new System.Drawing.Point(4, 22);
       this.tabPage2.Name = "tabPage2";
       this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-      this.tabPage2.Size = new System.Drawing.Size(796, 481);
+      this.tabPage2.Size = new System.Drawing.Size(796, 445);
       this.tabPage2.TabIndex = 1;
       this.tabPage2.Text = "2페이지";
       // 
@@ -620,6 +649,15 @@
       this.gb5_Btn1.UseVisualStyleBackColor = false;
       this.gb5_Btn1.Click += new System.EventHandler(this.gp5_Btn1_Click);
       // 
+      // axWindowsMediaPlayer1
+      // 
+      this.axWindowsMediaPlayer1.Enabled = true;
+      this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(184, 58);
+      this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
+      this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
+      this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(393, 224);
+      this.axWindowsMediaPlayer1.TabIndex = 0;
+      // 
       // tabPage3
       // 
       this.tabPage3.BackColor = System.Drawing.Color.White;
@@ -686,7 +724,7 @@
       this.tabPage4.Location = new System.Drawing.Point(4, 22);
       this.tabPage4.Name = "tabPage4";
       this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-      this.tabPage4.Size = new System.Drawing.Size(796, 445);
+      this.tabPage4.Size = new System.Drawing.Size(796, 465);
       this.tabPage4.TabIndex = 3;
       this.tabPage4.Text = "4페이지";
       // 
@@ -763,14 +801,277 @@
       this.pictureBox1.TabIndex = 0;
       this.pictureBox1.TabStop = false;
       // 
-      // axWindowsMediaPlayer1
+      // tabPage5
       // 
-      this.axWindowsMediaPlayer1.Enabled = true;
-      this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(184, 58);
-      this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
-      this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
-      this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(393, 224);
-      this.axWindowsMediaPlayer1.TabIndex = 0;
+      this.tabPage5.BackColor = System.Drawing.Color.White;
+      this.tabPage5.Controls.Add(this.groupBox11);
+      this.tabPage5.Controls.Add(this.groupBox10);
+      this.tabPage5.Controls.Add(this.groupBox9);
+      this.tabPage5.Controls.Add(this.groupBox8);
+      this.tabPage5.Controls.Add(this.button1);
+      this.tabPage5.Controls.Add(this.button2);
+      this.tabPage5.Location = new System.Drawing.Point(4, 22);
+      this.tabPage5.Name = "tabPage5";
+      this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+      this.tabPage5.Size = new System.Drawing.Size(796, 481);
+      this.tabPage5.TabIndex = 5;
+      this.tabPage5.Text = "1-1페이지";
+      // 
+      // button1
+      // 
+      this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+      this.button1.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+      this.button1.Location = new System.Drawing.Point(684, 417);
+      this.button1.Name = "button1";
+      this.button1.Size = new System.Drawing.Size(100, 30);
+      this.button1.TabIndex = 20;
+      this.button1.Text = "다음 >";
+      this.button1.UseVisualStyleBackColor = false;
+      this.button1.Click += new System.EventHandler(this.button1_Click);
+      // 
+      // button2
+      // 
+      this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+      this.button2.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+      this.button2.Location = new System.Drawing.Point(8, 417);
+      this.button2.Name = "button2";
+      this.button2.Size = new System.Drawing.Size(100, 30);
+      this.button2.TabIndex = 19;
+      this.button2.Text = "< 이전";
+      this.button2.UseVisualStyleBackColor = false;
+      this.button2.Click += new System.EventHandler(this.button2_Click);
+      // 
+      // groupBox8
+      // 
+      this.groupBox8.Controls.Add(this.checkBox14);
+      this.groupBox8.Controls.Add(this.checkBox13);
+      this.groupBox8.Controls.Add(this.checkBox12);
+      this.groupBox8.Controls.Add(this.checkBox11);
+      this.groupBox8.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+      this.groupBox8.Location = new System.Drawing.Point(8, 306);
+      this.groupBox8.Name = "groupBox8";
+      this.groupBox8.Size = new System.Drawing.Size(776, 82);
+      this.groupBox8.TabIndex = 21;
+      this.groupBox8.TabStop = false;
+      this.groupBox8.Text = "최근 3개월 이내에 했던 행동을 선택해주세요. ";
+      // 
+      // groupBox9
+      // 
+      this.groupBox9.Controls.Add(this.checkBox18);
+      this.groupBox9.Controls.Add(this.checkBox17);
+      this.groupBox9.Controls.Add(this.checkBox16);
+      this.groupBox9.Controls.Add(this.checkBox15);
+      this.groupBox9.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+      this.groupBox9.Location = new System.Drawing.Point(8, 212);
+      this.groupBox9.Name = "groupBox9";
+      this.groupBox9.Size = new System.Drawing.Size(776, 82);
+      this.groupBox9.TabIndex = 22;
+      this.groupBox9.TabStop = false;
+      this.groupBox9.Text = "최근 3개월 이내에 갔던 여행지를 선택해주세요.";
+      // 
+      // groupBox10
+      // 
+      this.groupBox10.Controls.Add(this.checkBox22);
+      this.groupBox10.Controls.Add(this.checkBox21);
+      this.groupBox10.Controls.Add(this.checkBox20);
+      this.groupBox10.Controls.Add(this.checkBox19);
+      this.groupBox10.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+      this.groupBox10.Location = new System.Drawing.Point(8, 117);
+      this.groupBox10.Name = "groupBox10";
+      this.groupBox10.Size = new System.Drawing.Size(776, 82);
+      this.groupBox10.TabIndex = 23;
+      this.groupBox10.TabStop = false;
+      this.groupBox10.Text = "최근 3개월 이내에 갔던 공공시설을 선택해주세요.";
+      // 
+      // groupBox11
+      // 
+      this.groupBox11.Controls.Add(this.checkBox26);
+      this.groupBox11.Controls.Add(this.checkBox25);
+      this.groupBox11.Controls.Add(this.checkBox24);
+      this.groupBox11.Controls.Add(this.checkBox23);
+      this.groupBox11.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+      this.groupBox11.Location = new System.Drawing.Point(8, 24);
+      this.groupBox11.Name = "groupBox11";
+      this.groupBox11.Size = new System.Drawing.Size(776, 82);
+      this.groupBox11.TabIndex = 24;
+      this.groupBox11.TabStop = false;
+      this.groupBox11.Text = "최근 3개월 이내에 타신 대중교통을 선택해주세요.";
+      // 
+      // checkBox11
+      // 
+      this.checkBox11.AutoSize = true;
+      this.checkBox11.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+      this.checkBox11.Location = new System.Drawing.Point(146, 34);
+      this.checkBox11.Name = "checkBox11";
+      this.checkBox11.Size = new System.Drawing.Size(69, 29);
+      this.checkBox11.TabIndex = 0;
+      this.checkBox11.Text = "음주";
+      this.checkBox11.UseVisualStyleBackColor = true;
+      // 
+      // checkBox12
+      // 
+      this.checkBox12.AutoSize = true;
+      this.checkBox12.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+      this.checkBox12.Location = new System.Drawing.Point(281, 34);
+      this.checkBox12.Name = "checkBox12";
+      this.checkBox12.Size = new System.Drawing.Size(69, 29);
+      this.checkBox12.TabIndex = 1;
+      this.checkBox12.Text = "흡연";
+      this.checkBox12.UseVisualStyleBackColor = true;
+      // 
+      // checkBox13
+      // 
+      this.checkBox13.AutoSize = true;
+      this.checkBox13.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+      this.checkBox13.Location = new System.Drawing.Point(424, 34);
+      this.checkBox13.Name = "checkBox13";
+      this.checkBox13.Size = new System.Drawing.Size(126, 29);
+      this.checkBox13.TabIndex = 2;
+      this.checkBox13.Text = "불규칙생활";
+      this.checkBox13.UseVisualStyleBackColor = true;
+      // 
+      // checkBox14
+      // 
+      this.checkBox14.AutoSize = true;
+      this.checkBox14.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+      this.checkBox14.Location = new System.Drawing.Point(553, 34);
+      this.checkBox14.Name = "checkBox14";
+      this.checkBox14.Size = new System.Drawing.Size(88, 29);
+      this.checkBox14.TabIndex = 3;
+      this.checkBox14.Text = "비운동";
+      this.checkBox14.UseVisualStyleBackColor = true;
+      // 
+      // checkBox15
+      // 
+      this.checkBox15.AutoSize = true;
+      this.checkBox15.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+      this.checkBox15.Location = new System.Drawing.Point(146, 32);
+      this.checkBox15.Name = "checkBox15";
+      this.checkBox15.Size = new System.Drawing.Size(50, 29);
+      this.checkBox15.TabIndex = 0;
+      this.checkBox15.Text = "산";
+      this.checkBox15.UseVisualStyleBackColor = true;
+      // 
+      // checkBox16
+      // 
+      this.checkBox16.AutoSize = true;
+      this.checkBox16.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+      this.checkBox16.Location = new System.Drawing.Point(281, 32);
+      this.checkBox16.Name = "checkBox16";
+      this.checkBox16.Size = new System.Drawing.Size(69, 29);
+      this.checkBox16.TabIndex = 1;
+      this.checkBox16.Text = "바다";
+      this.checkBox16.UseVisualStyleBackColor = true;
+      // 
+      // checkBox17
+      // 
+      this.checkBox17.AutoSize = true;
+      this.checkBox17.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+      this.checkBox17.Location = new System.Drawing.Point(424, 32);
+      this.checkBox17.Name = "checkBox17";
+      this.checkBox17.Size = new System.Drawing.Size(50, 29);
+      this.checkBox17.TabIndex = 2;
+      this.checkBox17.Text = "섬";
+      this.checkBox17.UseVisualStyleBackColor = true;
+      // 
+      // checkBox18
+      // 
+      this.checkBox18.AutoSize = true;
+      this.checkBox18.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+      this.checkBox18.Location = new System.Drawing.Point(553, 32);
+      this.checkBox18.Name = "checkBox18";
+      this.checkBox18.Size = new System.Drawing.Size(69, 29);
+      this.checkBox18.TabIndex = 3;
+      this.checkBox18.Text = "계곡";
+      this.checkBox18.UseVisualStyleBackColor = true;
+      // 
+      // checkBox19
+      // 
+      this.checkBox19.AutoSize = true;
+      this.checkBox19.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+      this.checkBox19.Location = new System.Drawing.Point(146, 32);
+      this.checkBox19.Name = "checkBox19";
+      this.checkBox19.Size = new System.Drawing.Size(69, 29);
+      this.checkBox19.TabIndex = 0;
+      this.checkBox19.Text = "학교";
+      this.checkBox19.UseVisualStyleBackColor = true;
+      // 
+      // checkBox20
+      // 
+      this.checkBox20.AutoSize = true;
+      this.checkBox20.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+      this.checkBox20.Location = new System.Drawing.Point(281, 32);
+      this.checkBox20.Name = "checkBox20";
+      this.checkBox20.Size = new System.Drawing.Size(88, 29);
+      this.checkBox20.TabIndex = 1;
+      this.checkBox20.Text = "도서관";
+      this.checkBox20.UseVisualStyleBackColor = true;
+      // 
+      // checkBox21
+      // 
+      this.checkBox21.AutoSize = true;
+      this.checkBox21.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+      this.checkBox21.Location = new System.Drawing.Point(424, 32);
+      this.checkBox21.Name = "checkBox21";
+      this.checkBox21.Size = new System.Drawing.Size(107, 29);
+      this.checkBox21.TabIndex = 2;
+      this.checkBox21.Text = "동사무소";
+      this.checkBox21.UseVisualStyleBackColor = true;
+      // 
+      // checkBox22
+      // 
+      this.checkBox22.AutoSize = true;
+      this.checkBox22.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+      this.checkBox22.Location = new System.Drawing.Point(553, 32);
+      this.checkBox22.Name = "checkBox22";
+      this.checkBox22.Size = new System.Drawing.Size(88, 29);
+      this.checkBox22.TabIndex = 3;
+      this.checkBox22.Text = "우체국";
+      this.checkBox22.UseVisualStyleBackColor = true;
+      // 
+      // checkBox23
+      // 
+      this.checkBox23.AutoSize = true;
+      this.checkBox23.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+      this.checkBox23.Location = new System.Drawing.Point(146, 32);
+      this.checkBox23.Name = "checkBox23";
+      this.checkBox23.Size = new System.Drawing.Size(69, 29);
+      this.checkBox23.TabIndex = 0;
+      this.checkBox23.Text = "버스";
+      this.checkBox23.UseVisualStyleBackColor = true;
+      // 
+      // checkBox24
+      // 
+      this.checkBox24.AutoSize = true;
+      this.checkBox24.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+      this.checkBox24.Location = new System.Drawing.Point(281, 32);
+      this.checkBox24.Name = "checkBox24";
+      this.checkBox24.Size = new System.Drawing.Size(88, 29);
+      this.checkBox24.TabIndex = 1;
+      this.checkBox24.Text = "지하철";
+      this.checkBox24.UseVisualStyleBackColor = true;
+      // 
+      // checkBox25
+      // 
+      this.checkBox25.AutoSize = true;
+      this.checkBox25.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+      this.checkBox25.Location = new System.Drawing.Point(424, 32);
+      this.checkBox25.Name = "checkBox25";
+      this.checkBox25.Size = new System.Drawing.Size(69, 29);
+      this.checkBox25.TabIndex = 2;
+      this.checkBox25.Text = "기차";
+      this.checkBox25.UseVisualStyleBackColor = true;
+      // 
+      // checkBox26
+      // 
+      this.checkBox26.AutoSize = true;
+      this.checkBox26.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+      this.checkBox26.Location = new System.Drawing.Point(553, 32);
+      this.checkBox26.Name = "checkBox26";
+      this.checkBox26.Size = new System.Drawing.Size(69, 29);
+      this.checkBox26.TabIndex = 3;
+      this.checkBox26.Text = "택시";
+      this.checkBox26.UseVisualStyleBackColor = true;
       // 
       // Check
       // 
@@ -798,13 +1099,22 @@
       this.tabPage2.ResumeLayout(false);
       this.groupBox5.ResumeLayout(false);
       this.groupBox5.PerformLayout();
+      ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
       this.tabPage3.ResumeLayout(false);
       this.groupBox6.ResumeLayout(false);
       this.tabPage4.ResumeLayout(false);
       this.groupBox7.ResumeLayout(false);
       this.groupBox7.PerformLayout();
       ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-      ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
+      this.tabPage5.ResumeLayout(false);
+      this.groupBox8.ResumeLayout(false);
+      this.groupBox8.PerformLayout();
+      this.groupBox9.ResumeLayout(false);
+      this.groupBox9.PerformLayout();
+      this.groupBox10.ResumeLayout(false);
+      this.groupBox10.PerformLayout();
+      this.groupBox11.ResumeLayout(false);
+      this.groupBox11.PerformLayout();
       this.ResumeLayout(false);
 
     }
@@ -866,5 +1176,28 @@
     private System.Windows.Forms.Label label2;
     private System.Windows.Forms.Label label1;
     private System.Windows.Forms.ComboBox comboBox1;
+    private System.Windows.Forms.TabPage tabPage5;
+    private System.Windows.Forms.GroupBox groupBox11;
+    private System.Windows.Forms.CheckBox checkBox26;
+    private System.Windows.Forms.CheckBox checkBox25;
+    private System.Windows.Forms.CheckBox checkBox24;
+    private System.Windows.Forms.CheckBox checkBox23;
+    private System.Windows.Forms.GroupBox groupBox10;
+    private System.Windows.Forms.CheckBox checkBox22;
+    private System.Windows.Forms.CheckBox checkBox21;
+    private System.Windows.Forms.CheckBox checkBox20;
+    private System.Windows.Forms.CheckBox checkBox19;
+    private System.Windows.Forms.GroupBox groupBox9;
+    private System.Windows.Forms.CheckBox checkBox18;
+    private System.Windows.Forms.CheckBox checkBox17;
+    private System.Windows.Forms.CheckBox checkBox16;
+    private System.Windows.Forms.CheckBox checkBox15;
+    private System.Windows.Forms.GroupBox groupBox8;
+    private System.Windows.Forms.CheckBox checkBox14;
+    private System.Windows.Forms.CheckBox checkBox13;
+    private System.Windows.Forms.CheckBox checkBox12;
+    private System.Windows.Forms.CheckBox checkBox11;
+    private System.Windows.Forms.Button button1;
+    private System.Windows.Forms.Button button2;
   }
 }

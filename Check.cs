@@ -22,28 +22,28 @@ namespace Survey
       this.tabControl1.SelectedIndex = 0;
     }
 
-    private void tP1_NextBtn_Click(object sender, EventArgs e) // 1 -> 2페이지 이동
+    private void tP1_NextBtn_Click(object sender, EventArgs e) // 2 -> 3페이지 이동
     {
       this.tabControl1.SelectedIndex = 2;
     }
 
-    private void tP2_NextBtn_Click(object sender, EventArgs e) // 2 -> 3페이지 이동
+    private void tP2_NextBtn_Click(object sender, EventArgs e) // 3 -> 4페이지 이동
     {
-      this.tabControl1.SelectedIndex = 3;
+      this.tabControl1.SelectedIndex = 4;
       axWindowsMediaPlayer1.Ctlcontrols.stop();
     }
 
-    private void tP2_PrevBtn_Click(object sender, EventArgs e) // 2 -> 1페이지 이동
+    private void tP2_PrevBtn_Click(object sender, EventArgs e) // 3 -> 2페이지 이동
     {
-      this.tabControl1.SelectedIndex = 1;
+      this.tabControl1.SelectedIndex = 2;
     }
 
-    private void tP3_NextBtn_Click(object sender, EventArgs e) // 3 -> 4페이지 이동
+    private void tP3_NextBtn_Click(object sender, EventArgs e) // 4 -> 5페이지 이동
     {
-      this.tabControl1.SelectedIndex = 4;
+      this.tabControl1.SelectedIndex = 5;
     }
 
-    private void tP3_PrevBtn_Click(object sender, EventArgs e) // 3 -> 2페이지 이동
+    private void tP3_PrevBtn_Click(object sender, EventArgs e) // 4 -> 3페이지 이동 추후 3으로 수정
     {
       this.tabControl1.SelectedIndex = 2;
     }
@@ -65,9 +65,9 @@ namespace Survey
       }
     }
 
-    private void tP4_PrevBtn_Click(object sender, EventArgs e) // 4 -> 3페이지 이동
+    private void tP4_PrevBtn_Click(object sender, EventArgs e) // 5 -> 4페이지 이동
     {
-      this.tabControl1.SelectedIndex = 3;
+      this.tabControl1.SelectedIndex = 4;
     }
 
     private void radioButton4_CheckedChanged(object sender, EventArgs e) // 2번답 아니오 클릭 시
@@ -117,6 +117,16 @@ namespace Survey
       {
         this.tabControl1.SelectedIndex = 1;
       }
+    }
+
+    private void button2_Click(object sender, EventArgs e)
+    {
+      this.tabControl1.SelectedIndex = 1;
+    }
+
+    private void button1_Click(object sender, EventArgs e) //추후3으로 수정
+    {
+      this.tabControl1.SelectedIndex = 4;
     }
   }
 }
