@@ -1,8 +1,7 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -13,28 +12,51 @@ namespace Survey
 {
   public partial class Code : Form
   {
+    string _server = "172.23.16.1";
+    int _port = 3306;
+    string _database = "code_schema";
+    string _id = "root";
+    string _pw = "";
+    string _connectionAddress = "";
+
     public Code()
     {
       InitializeComponent();
+
+      _connectionAddress = string.Format("Server={0};Port={1};Database={2};Uid={3};Pwd={4}", _server, _port, _database, _id, _pw);
     }
 
     private void button1_Click(object sender, EventArgs e) //다음
     {
-      SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Me\PG\VS File\Survey\bin\Debug\Data.mdf;Integrated Security=True;Connect Timeout=30");
-      SqlDataAdapter sda = new SqlDataAdapter("Select Count(*) from CODE where PW='" + textBox1.Text + "'", con);
-      DataTable newTable = new DataTable();
-      sda.Fill(newTable);
-      if (newTable.Rows[0][0].ToString() == "1")
+      try
       {
-        Point parentPoint = this.Location;
-        Program.check.StartPosition = FormStartPosition.Manual;
-        Program.check.Location = new Point(parentPoint.X, parentPoint.Y);
-        Program.check.Show();
-        Program.code.Hide();
+        MySqlConnection MyConn = new MySqlConnection(_connectionAddress);
+        MySqlCommand SelectCommand = new MySqlCommand("select * from code_table where code ='" + this.textBox1.Text + "'", MyConn);
+        MySqlDataReader myReader;
+        MyConn.Open();
+        myReader = SelectCommand.ExecuteReader();
+        int count = 0;
+
+        while (myReader.Read())
+        {
+          count = count + 1;
+        }
+        if (count == 1) // DB값과 일치할경우 진입
+        {
+          Point parentPoint = this.Location;
+          Program.check.StartPosition = FormStartPosition.Manual;
+          Program.check.Location = new Point(parentPoint.X, parentPoint.Y);
+          Program.check.Show();
+          Program.code.Hide();
+        }
+        else // DB값과 불일치할경우 진입불가
+        {
+          MessageBox.Show("정확한 코드를 입력해주세요.");
+        }
       }
-      else
+      catch (Exception ex)
       {
-        MessageBox.Show("정확한 코드를 입력해주세요.");
+        MessageBox.Show(ex.Message);
       }
     }
 

@@ -20,9 +20,9 @@ namespace Survey
     private void button2_Click(object sender, EventArgs e)
     {
       Point parentPoint = this.Location;
-      Program.code.StartPosition = FormStartPosition.Manual;
-      Program.code.Location = new Point(parentPoint.X, parentPoint.Y);
-      Program.code.Show();
+      Program.check.StartPosition = FormStartPosition.Manual;
+      Program.check.Location = new Point(parentPoint.X, parentPoint.Y);
+      Program.check.Show();
       Program.main.Hide();
     }
 
@@ -37,15 +37,6 @@ namespace Survey
       {
         e.Cancel = true;
       }
-    }
-
-    private void button1_Click(object sender, EventArgs e) // 관리자 모드 진입
-    {
-      Point parentPoint = this.Location;
-      Program.login.StartPosition = FormStartPosition.Manual;
-      Program.login.Location = new Point(parentPoint.X, parentPoint.Y);
-      Program.login.Show();
-      Program.main.Hide();
     }
   }
 }

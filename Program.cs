@@ -15,8 +15,6 @@ namespace Survey
     public static readonly Code code = new Code();
     public static readonly Result result = new Result();
     public static readonly Check check = new Check();
-    public static readonly Login login = new Login();
-    public static readonly Chart chart = new Chart();
     /// <summary>
     /// 해당 애플리케이션의 주 진입점입니다.
     /// </summary>

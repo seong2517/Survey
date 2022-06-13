@@ -109,10 +109,10 @@
       this.tabControl1.Controls.Add(this.tabPage2);
       this.tabControl1.Controls.Add(this.tabPage3);
       this.tabControl1.Controls.Add(this.tabPage4);
-      this.tabControl1.Location = new System.Drawing.Point(0, -22);
+      this.tabControl1.Location = new System.Drawing.Point(0, -24);
       this.tabControl1.Name = "tabControl1";
       this.tabControl1.SelectedIndex = 0;
-      this.tabControl1.Size = new System.Drawing.Size(804, 505);
+      this.tabControl1.Size = new System.Drawing.Size(804, 507);
       this.tabControl1.TabIndex = 0;
       // 
       // information
@@ -131,7 +131,7 @@
       this.information.Location = new System.Drawing.Point(4, 22);
       this.information.Name = "information";
       this.information.Padding = new System.Windows.Forms.Padding(3);
-      this.information.Size = new System.Drawing.Size(796, 479);
+      this.information.Size = new System.Drawing.Size(796, 445);
       this.information.TabIndex = 4;
       this.information.Text = "information";
       // 
@@ -263,7 +263,7 @@
       this.tabPage1.Location = new System.Drawing.Point(4, 22);
       this.tabPage1.Name = "tabPage1";
       this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-      this.tabPage1.Size = new System.Drawing.Size(796, 479);
+      this.tabPage1.Size = new System.Drawing.Size(796, 480);
       this.tabPage1.TabIndex = 0;
       this.tabPage1.Text = "1페이지";
       // 
@@ -494,7 +494,7 @@
       this.tabPage2.Location = new System.Drawing.Point(4, 22);
       this.tabPage2.Name = "tabPage2";
       this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-      this.tabPage2.Size = new System.Drawing.Size(796, 479);
+      this.tabPage2.Size = new System.Drawing.Size(796, 481);
       this.tabPage2.TabIndex = 1;
       this.tabPage2.Text = "2페이지";
       // 
@@ -629,7 +629,7 @@
       this.tabPage3.Location = new System.Drawing.Point(4, 22);
       this.tabPage3.Name = "tabPage3";
       this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-      this.tabPage3.Size = new System.Drawing.Size(796, 479);
+      this.tabPage3.Size = new System.Drawing.Size(796, 445);
       this.tabPage3.TabIndex = 2;
       this.tabPage3.Text = "3페이지";
       // 
@@ -686,7 +686,7 @@
       this.tabPage4.Location = new System.Drawing.Point(4, 22);
       this.tabPage4.Name = "tabPage4";
       this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-      this.tabPage4.Size = new System.Drawing.Size(796, 451);
+      this.tabPage4.Size = new System.Drawing.Size(796, 445);
       this.tabPage4.TabIndex = 3;
       this.tabPage4.Text = "4페이지";
       // 

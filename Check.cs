@@ -67,7 +67,7 @@ namespace Survey
 
     private void tP4_PrevBtn_Click(object sender, EventArgs e) // 4 -> 3페이지 이동
     {
-      this.tabControl1.SelectedIndex = 2;
+      this.tabControl1.SelectedIndex = 3;
     }
 
     private void radioButton4_CheckedChanged(object sender, EventArgs e) // 2번답 아니오 클릭 시
@@ -84,7 +84,7 @@ namespace Survey
 
     private void gp5_Btn1_Click(object sender, EventArgs e) // 동영상 재생버튼 클릭
     {
-      axWindowsMediaPlayer1.URL = "Corona.mp4";
+      axWindowsMediaPlayer1.URL = "corona.mp4";
       axWindowsMediaPlayer1.Ctlcontrols.play();
     }
 
