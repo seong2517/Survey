@@ -20,9 +20,9 @@ namespace Survey
     private void button2_Click(object sender, EventArgs e)
     {
       Point parentPoint = this.Location;
-      Program.check.StartPosition = FormStartPosition.Manual;
-      Program.check.Location = new Point(parentPoint.X, parentPoint.Y);
-      Program.check.Show();
+      Program.code.StartPosition = FormStartPosition.Manual;
+      Program.code.Location = new Point(parentPoint.X, parentPoint.Y);
+      Program.code.Show();
       Program.main.Hide();
     }
 
